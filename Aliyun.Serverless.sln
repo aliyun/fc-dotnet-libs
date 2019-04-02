@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliyun.Serverless.Core", "Aliyun.Serverless.Core\Aliyun.Serverless.Core.csproj", "{13F52F5D-8A6F-4853-B410-DC5A9B355BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliyun.Serverless.Events", "Aliyun.Serverless.Events\Aliyun.Serverless.Events.csproj", "{A74E7D38-8306-4119-B4E9-00BE0CA65CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliyun.Serverless.Core.Http", "Aliyun.Serverless.Core.Http\Aliyun.Serverless.Core.Http.csproj", "{0BB2FD98-DBAA-4A32-95A2-B0C53EEB3BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliyun.Serverless.Core.Mock", "Aliyun.Serverless.Core.Mock\Aliyun.Serverless.Core.Mock.csproj", "{07431B1D-FAB6-4280-860A-AC8DD6EFE16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13F52F5D-8A6F-4853-B410-DC5A9B355BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F52F5D-8A6F-4853-B410-DC5A9B355BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F52F5D-8A6F-4853-B410-DC5A9B355BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F52F5D-8A6F-4853-B410-DC5A9B355BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74E7D38-8306-4119-B4E9-00BE0CA65CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74E7D38-8306-4119-B4E9-00BE0CA65CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74E7D38-8306-4119-B4E9-00BE0CA65CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74E7D38-8306-4119-B4E9-00BE0CA65CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB2FD98-DBAA-4A32-95A2-B0C53EEB3BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB2FD98-DBAA-4A32-95A2-B0C53EEB3BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB2FD98-DBAA-4A32-95A2-B0C53EEB3BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB2FD98-DBAA-4A32-95A2-B0C53EEB3BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07431B1D-FAB6-4280-860A-AC8DD6EFE16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07431B1D-FAB6-4280-860A-AC8DD6EFE16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07431B1D-FAB6-4280-860A-AC8DD6EFE16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07431B1D-FAB6-4280-860A-AC8DD6EFE16C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

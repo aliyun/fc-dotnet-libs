@@ -1,0 +1,9 @@
+language: csharp
+solution: Aliyun.Serverless.sln
+
+mono: none
+
+dotnet: 2.1.4
+
+script:
+- dotnet build Aliyun.Serverless.sln

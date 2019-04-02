@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Aliyun.Serverless.Core.Mock</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Description>The mock implementation for Aliyun.Serverless.Core's interfaces for local test purpose</Description>
+    <Owners>Alibaba Cloud</Owners>
+    <Summary>The SDK for developing functions of Alibaba Cloud Function Compute</Summary>
+    <Title>Aliyun.Serverless.Core.Mock</Title>
+    <PackageTags>Aliyun;Alibaba Cloud;Serverless</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aliyun.Serverless.Core" Version="1.0.1" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
