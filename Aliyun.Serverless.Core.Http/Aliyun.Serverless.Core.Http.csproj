@@ -6,7 +6,7 @@
     <Summary>The SDK for developing http invoke functions of Alibaba Cloud Function Compute</Summary>
     <Title>Aliyun.Serverless.Core.Http</Title>
     <PackageTags>Aliyun;Alibaba Cloud;Serverless</PackageTags>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Description>Aliyun Serverless .NET Core support - Core package.</Description>
     <PackageId>Aliyun.Serverless.Core.Http</PackageId>
   </PropertyGroup>

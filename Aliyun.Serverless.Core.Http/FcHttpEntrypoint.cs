@@ -32,6 +32,8 @@ namespace Aliyun.Serverless.Core.Http
         protected IWebHost _host;
 
         private static string _pathBase;
+        
+        private static readonly object startLock = new object();
 
         /// <summary>
         /// Should be called in the derived constructor 
@@ -152,11 +154,14 @@ namespace Aliyun.Serverless.Core.Http
         public virtual async Task<HttpResponse> HandleRequest(HttpRequest request, HttpResponse response, IFcContext fcContext)
         {
             Logger = fcContext.Logger;
-            if (!IsStarted)
+            lock (startLock)
             {
-                _pathBase = request.PathBase;
-                Logger.LogInformation("Setting global PathBase {0}", _pathBase);
-                Start();
+                if (!IsStarted)
+                {
+                    _pathBase = request.PathBase;
+                    Logger.LogInformation("Setting global PathBase {0}", _pathBase);
+                    Start();
+                }
             }
 
             Logger.LogDebug("Incoming {0} requests Path: {1}, Pathbase {2}", request.Method, request.Path, request.PathBase);
